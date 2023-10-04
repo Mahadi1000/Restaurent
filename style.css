@@ -1,3 +1,50 @@
-nav{
-    background-color: coral;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-item{
+    display: flex;
+    
+}
+.list-item li{
+    list-style: none;
+    padding: 15px;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    
+}
+.banner-section{
+    background-image: url(./Assets/05-Restrurent.png)  ;
+    background-size: cover;
+  background-position: center;
+    height: 600px;
+}
+.list-item li:hover {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.banner-header{
+    color: white;
+    text-align: center;
+    flex-direction: column;
+   font-size: 60px;
+   display: flex;
+   margin-top: 30px;
+}
+
+.banner-btn{
+  padding: 10px 25px 10px 25px;
+  background-color: rgba(43, 44, 46, 0.705);
+  border: none;
+  color: wheat;
+  border-radius: 10px;
+  
+}
+.banner-btn:hover{
+    background-color: rgba(52, 152, 219, 0.5); 
 }
